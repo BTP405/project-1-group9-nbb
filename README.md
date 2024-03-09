@@ -22,12 +22,13 @@
     1. install PostgreSQL
     2. open pgAdmin4 
     3. create DB
-    4. db_info are:
+    4. current db_info are:
         DB_NAME=students
         DB_USER=postgres
         DB_PASSWORD=simon
         DB_HOST=127.0.0.1
         DB_PORT=5432
+    can change it through .env
     5. create virtual environment. for example, comment in terminal: python -m venv venv
     6. `venv\scripts\activate` to activate virtual environment
     - pip install django
